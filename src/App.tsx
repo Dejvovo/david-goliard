@@ -124,7 +124,7 @@ function HeroSection({ tr }: { tr: typeof t.cs }) {
         <div className="col-span-12 lg:col-span-5 relative">
           <div className="aspect-[4/5] bg-surface-container-low overflow-hidden relative">
             <img
-              src="/portrait.jpg"
+              src={`${import.meta.env.BASE_URL}portrait.jpg`}
               alt="Portrait of David Goliard"
               className="w-full h-full object-cover object-top opacity-90 hover:opacity-100 transition-opacity duration-500"
             />
