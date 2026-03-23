@@ -282,8 +282,6 @@ function Footer({ tr }: { tr: typeof t.cs }) {
   const links = [
     { label: 'LinkedIn', href: 'https://linkedin.com/in/david-goliard-a3581812a' },
     { label: 'GitHub', href: 'https://github.com/Dejvovo' },
-    { label: 'sissi-kv.cz', href: 'https://sissi-kv.cz' },
-    { label: 'zkusenostizpohovoru.cz', href: 'https://zkusenostizpohovoru.cz' },
   ]
   return (
     <footer className="bg-neutral-950 w-full py-20 mt-20">
