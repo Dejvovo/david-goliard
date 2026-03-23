@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Reference / private files — not part of source
+real_data/
+brand_assets/
+temporary screenshots/
+
+# Dev scripts (machine-specific Chrome path etc.)
+scripts/
+
+# Claude configuration
+CLAUDE.MD
+.claude/
+
+# Environment & local overrides
+*.local
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db
